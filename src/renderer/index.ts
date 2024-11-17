@@ -1,4 +1,3 @@
-
 export const onSettingWindowCreated = (view: HTMLElement) => {
   console.log('Setting window has just been created');
 
@@ -18,6 +17,7 @@ export const onSettingWindowCreated = (view: HTMLElement) => {
   });
 
   (doms.body.querySelector('#template-greet') as HTMLButtonElement).addEventListener('click', () => {
+    // @ts-ignore
     LLTemplate_Vite.greeting('Misa');
   });
 

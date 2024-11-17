@@ -1,15 +1,15 @@
 {
   "manifest_version": 4,
   "type": "extension",
-  "name": "LLTemplate-Vite",
-  "slug": "LLTemplate-Vite",
-  "description": "A plugin template for LiteLoaderQQNT, powered by Vite & Typescript",
-  "version": "1.0.0",
+  "name": "LiteLoaderQQNT-Auto-Message",
+  "slug": "LiteLoaderQQNT-Auto-Message",
+  "description": "自动化消息发送",
+  "version": "0.0.1",
   "icon": null,
   "authors": [
     {
-      "name": "MisaLiu",
-      "link": "https://github.com/MisaLiu"
+      "name": "FateBug",
+      "link": "https://github.com/fatebugs"
     }
   ],
   "platform": [
@@ -23,11 +23,11 @@
     "renderer": "./renderer/index.js"
   },
   "repository": {
-    "repo": "MisaLiu/LietLoaderQQNT-PluginTemplate-Vite",
+    "repo": "fatebugs/LiteLoaderQQNT-Auto-Message",
     "branch": "master",
     "release": {
-      "tag": "1.0.0",
-      "file": "LLTemplate-Vite"
+      "tag": "v0.0.1",
+      "file": "LiteLoaderQQNT-Auto-Message"
     }
   }
 }
